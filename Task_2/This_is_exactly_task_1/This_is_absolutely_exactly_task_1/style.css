@@ -20,6 +20,9 @@ h3{
 body {
     background-color: #61381b32
 }
+#kart{
+	padding: 20px;
+}
 /* таблица */
 .table{
 	border: 3px solid  #240d07;
