@@ -1,0 +1,53 @@
+*
+{
+    font-size: 110%;
+}
+
+h1
+{
+    font-size: 32px;
+}
+
+.language label select
+{
+    font-size: 18px;
+}
+
+body 
+{
+    background-color: #0000ff13
+}
+
+.table
+{
+	border: 3px solid  #8bb9e1;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.nech
+{
+    background-color: #1780dc;
+}
+.ch
+{
+    background-color: #8bb9e1;
+}
+
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #8bb9e1;
+	border: 1px solid #d2f4ff;
+}
+.table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+.table tbody tr:nth-child(odd){
+	background: #fff;
+}
+.table tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
