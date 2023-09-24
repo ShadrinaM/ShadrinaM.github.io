@@ -1,4 +1,5 @@
 * {
+	font-size: 4vw;
 	margin: 0;
 	padding: 0;
 	color: #020100;
@@ -15,7 +16,7 @@ a:hover {
 }
 
 h3 {
-	font-size: 300%;
+	font-size: 6vw;
 }
 
 body {
@@ -35,8 +36,8 @@ main {
 /*шапка*/
 header {
 	display: flex;
+	order: 1;
 	flex-direction: column;
-	align-items: left;
 	text-align: left;
 }
 
@@ -45,33 +46,38 @@ header {
 	background-image: url("ad.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	padding: 4vw;
 }
 
 .nazvanie {
+	flex-grow: 6;
 	font-size: 7vw;
 	font-weight: bold;
 	color: #020100;
-	text-shadow: 2px 2px 5px #a48c8c;
 }
 
 .logotip {
-	width: 10vh;
-	height: 10vh;
-	padding: 3vh 2vh 2vh 3vh;
+	flex-grow: 1;
+	width: 10vw;
+	height: 10vw;
+	padding: 3vw 2vw 2vw 3vw;
 }
 
-.navid {
+.navig {
 	margin-bottom: 2vh;
 }
 
-.navid a {
+.navig a {
 	display: flex;
 	text-decoration: none;
 	font-size: 6vw;
 	font-weight: bold;
 	color: #020100;
-	text-shadow: 2px 2px 5px #a48c8c;
 
+}
+
+.navig a:hover {
+	color: #FDEA6A;
 }
 
 
@@ -79,8 +85,13 @@ header {
 
 
 /*таблица */
-.table {
+.tabl {
 	display: flex;
+	order: 2;
+}
+
+.table {
+	font-size: 3vw;
 	border: 3px solid #240d07;
 	table-layout: fixed;
 	width: 100%;
@@ -122,10 +133,17 @@ footer {
 .podval {
 	font-weight: bold;
 	color: #ed9b7a;
-	text-shadow: 2px 2px 4px #000000;
 	text-decoration: none;
-	height: 50px;
-	font-size: 32px;
-	margin: 0px;
-	padding: 10px;
+	height: 8vw;
+	font-size: 5vw;
 }
+
+
+/*
+1)почему пропали маркеры в списке
+2) как сделать order? почему не работает?
+3) почему при открытии чере F12 пустые куски справа если стоит 100 проц
+4) как подключать Media Query внутрии css или в html подключать для другого размера другой файл
+5) Моя версия считается адаптивной версией сайта для телефона?
+
+*/
