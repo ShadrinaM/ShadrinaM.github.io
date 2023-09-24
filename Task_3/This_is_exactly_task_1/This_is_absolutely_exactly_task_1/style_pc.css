@@ -1,0 +1,119 @@
+/* >=1200  основные изменения */
+* {
+	font-size: 110%;
+	color: #240d07;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+a {
+	color: #c72b05;
+	text-shadow: 1px 1px 2px #000;
+}
+
+a:hover {
+	color: #FDEA6A;
+}
+
+h3 {
+	font-size: 29px;
+}
+
+.language label select {
+	font-size: 18px;
+}
+
+body {
+	background-color: #61381b32
+}
+
+#kart {
+	padding: 20px;
+}
+
+/* таблица */
+.table {
+	border: 3px solid #240d07;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.table th {
+	font-weight: bold;
+	padding: 3px;
+	border: 3px solid #240d07;
+}
+
+.table td {
+	padding: 3px 3px;
+	border: 3px solid #240d07;
+	text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+	background: #ca6b30c7;
+}
+
+.table tbody tr:nth-child(even) {
+	background: #ca6b3085;
+}
+
+/* шапка*/
+header {
+	background-color: #37130a;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	text-shadow: 2px 2px 4px #000;
+}
+
+.logotip {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 38px;
+	margin-right: 60px;
+}
+
+.nazvanie {
+	font-size: 40px;
+	font-weight: bold;
+	color: #c72b05;
+	text-shadow: 2px 2px 4px #000;
+}
+
+
+nav {
+
+	list-style: none;
+	display: flex;
+
+}
+
+
+nav a {
+	margin-right: 15px;
+	text-decoration: none;
+	color: #d56520;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*подвал*/
+footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	background-color: #37130a;
+}
+
+.podval {
+	font-weight: bold;
+	color: #d56520;
+	text-shadow: 2px 2px 4px #000;
+	height: 50px;
+	font-size: 32px;
+	margin: 0px;
+	padding: 10px;
+}
