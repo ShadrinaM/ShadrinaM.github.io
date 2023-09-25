@@ -63,18 +63,15 @@ header {
 	font-weight: bold;
 	color: #020100;
 }
-
 .logotip {
 	flex-grow: 1;
 	width: 25%;
 	height: 25%;
 	padding: 4% 4% 4% 4%;
 }
-
 .navig {
 	margin-bottom: 2%;
 }
-
 .navig a {
 	display: flex;
 	text-decoration: none;
@@ -83,7 +80,6 @@ header {
 	color: #020100;
 
 }
-
 .navig a:hover {
 	color: #FDEA6A;
 }
