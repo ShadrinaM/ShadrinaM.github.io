@@ -25,23 +25,6 @@ body {
 }
 
 
-/*
-
-.all{
-	display: flex;
-}
-
-.all header{
-	order: 1;
-}
-.all tabliz{
-	order: 2;
-}
-.all main{
-
-}
-*/
-
 /*шапка*/
 header {
 	display: flex;
@@ -155,3 +138,5 @@ footer {
 	color: #ed9b7a;
 	text-decoration: none;	
 }
+
+/*в medea поменять порядок и шапку*/
