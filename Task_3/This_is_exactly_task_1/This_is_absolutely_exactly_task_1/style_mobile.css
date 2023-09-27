@@ -110,7 +110,7 @@ main {
 	table-layout: fixed;
 	width: 100%;
 	margin-bottom: 20px;
-	font-size: 60%;
+	font-size: 2.5vw;
 }
 
 .table th {
@@ -225,8 +225,8 @@ footer {
 	.cats {
 		width: 50%;
 	}
-
 	.table {
-		font-size: 100%;
+		font-size: 1.5vw;
 	}
+
 }
