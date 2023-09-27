@@ -14,7 +14,7 @@ a:hover {
 }
 
 h3 {
-	font-size: 200%;
+	font-size: 160%;
 }
 
 body {
@@ -47,7 +47,7 @@ header {
 
 .nazvanie {
 
-	font-size: 5vw;
+	font-size: 5.5vw;
 	padding: 4% 4% 4% 4%;
 	font-weight: bold;
 	color: #020100;
@@ -61,7 +61,7 @@ header {
 }
 
 .navig {
-	margin-bottom: 2%;
+	margin-top: 3%;
 }
 
 .navig a {
