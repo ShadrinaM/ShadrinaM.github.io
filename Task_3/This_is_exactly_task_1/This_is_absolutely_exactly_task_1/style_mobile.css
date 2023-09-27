@@ -38,23 +38,27 @@ header {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
 .nazvanie {
 	flex-grow: 6;
-	font-size: 400%;
+	font-size: 350%;
 	margin: 0;
 	padding: 4% 4% 4% 4%;
 	font-weight: bold;
 	color: #020100;
 }
+
 .logotip {
 	flex-grow: 1;
 	width: 25%;
 	height: 25%;
 	padding: 4% 4% 4% 4%;
 }
+
 .navig {
 	margin-bottom: 2%;
 }
+
 .navig a {
 	display: flex;
 	text-decoration: none;
@@ -63,6 +67,7 @@ header {
 	color: #020100;
 
 }
+
 .navig a:hover {
 	color: #FDEA6A;
 }
@@ -70,20 +75,21 @@ header {
 
 
 
-main{
+main {
 	display: flex;
-	flex-direction:column;
+	flex-direction: column;
 }
 
-.tabliz{
-	order:1;
-}
-.text{
-	order:2;
+.tabliz {
+	order: 1;
 }
 
-.fomaa{
-	order:3;
+.text {
+	order: 2;
+}
+
+.fomaa {
+	order: 3;
 	margin-bottom: 2%;
 }
 
@@ -91,7 +97,7 @@ main{
 
 /*таблица */
 .table {
-	
+
 	border: 3px solid #240d07;
 	table-layout: fixed;
 	width: 100%;
@@ -119,10 +125,6 @@ main{
 	background: #ca6b3085;
 }
 
-
-
-
-
 /*подвал*/
 
 footer {
@@ -136,7 +138,34 @@ footer {
 .podval {
 	font-weight: bold;
 	color: #ed9b7a;
-	text-decoration: none;	
+	text-decoration: none;
 }
+
+
+@media screen and (min-width: 900px) {
+	.tabliz {
+		order: 2;
+	}
+
+	.text {
+		order: 1;
+	}
+
+	.fomaa {
+		order: 3;
+		margin-bottom: 2%;
+	}
+
+	.logotip {
+		flex-grow: 1;
+		width: 15%;
+		height: 15%;
+		padding: 4% 4% 4% 4%;
+	}
+
+
+}
+
+
 
 /*в medea поменять порядок и шапку*/
