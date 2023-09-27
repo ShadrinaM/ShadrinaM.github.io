@@ -110,7 +110,7 @@ main {
 	table-layout: fixed;
 	width: 100%;
 	margin-bottom: 20px;
-	font-size: 100%;
+	font-size: 60%;
 }
 
 .table th {
@@ -217,7 +217,6 @@ footer {
 		margin: 0 4px;
 	}
 
-
 	#kart {
 		width: 50%;
 		height: 50%;
@@ -227,4 +226,7 @@ footer {
 		width: 50%;
 	}
 
+	.table {
+		font-size: 100%;
+	}
 }
