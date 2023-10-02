@@ -1,0 +1,233 @@
+/*всё для мобилки*/
+* {
+	color: #020100;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+a {
+	color: #c72b05;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #FDEA6A;
+}
+
+h3 {
+	font-size: 160%;
+}
+
+body {
+	background-color: #ed9b7a
+}
+
+#kart {
+	width: 100%;
+	height: 50%;
+}
+
+.cats {
+	width: 100%;
+}
+
+
+/*шапка*/
+header {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.shapka {
+	display: flex;
+	background-image: url("ad.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.nazvanie {
+
+	font-size: 5.5vw;
+	padding: 4% 4% 4% 4%;
+	font-weight: bold;
+	color: #020100;
+}
+
+.logotip {
+
+	width: 15%;
+	height: 15%;
+	padding: 9% 4% 9% 4%;
+}
+
+.navig {
+	margin-top: 3%;
+}
+
+.navig a {
+	display: flex;
+	text-decoration: none;
+	font-size: 150%;
+	font-weight: bold;
+	color: #020100;
+
+}
+
+.navig a:hover {
+	color: #FDEA6A;
+}
+
+
+
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.tabliz {
+	order: 1;
+}
+
+.text {
+	order: 2;
+}
+
+.fomaa {
+	order: 3;
+	margin-bottom: 2%;
+}
+
+
+
+
+
+
+/*таблица */
+.table {
+
+	border: 3px solid #240d07;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 2.5vw;
+}
+
+.table th {
+	font-weight: bold;
+	padding: 3px;
+	border: 3px solid #240d07;
+}
+
+.table td {
+	padding: 3px 3px;
+	border: 3px solid #240d07;
+	text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+	background: #ca6b30c7;
+}
+
+.table tbody tr:nth-child(even) {
+	background: #ca6b3085;
+}
+
+/*подвал*/
+
+footer {
+	display: flex;
+	position: relative;
+	padding-left: 1%;
+	background-color: rgb(0, 0, 0);
+	font-size: 200%;
+}
+
+.podval {
+	font-weight: bold;
+	color: #ed9b7a;
+	text-decoration: none;
+}
+
+/* для пк */
+@media screen and (min-width: 960px) {
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tabliz {
+		order: 2;
+	}
+
+	.text {
+		order: 1;
+	}
+
+	.fomaa {
+		order: 3;
+	}
+
+	.header {
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.logotip {
+		padding: 20px 0px 20px 20px;
+		height: 8%;
+		width: 8%;
+	}
+
+	.nazvanie {
+		color: #000000;
+		display: flex;
+		font-size: 2.5vw;
+		align-items: center;
+		padding: 20px;
+		text-shadow: 2px 2px 5px #fa7e26;
+	}
+
+	.shapka {
+		order: 2;
+		background-image: none;
+		background-image: radial-gradient(ellipse, #d56520, #37130a);
+		border: 4px solid #240d07;
+	}
+
+	.navig {
+		order: 1;
+		justify-content: flex-end;
+		align-items: center;
+		margin-top: 0;
+		padding-top: 15px;
+		padding-bottom: 10px;
+		margin-bottom: 0;
+		display: flex;
+		border: 4px 4px 0px 4px solid #240d07;
+		text-shadow: 2px 2px 5px #000000;
+		background-color: #37130a;
+	}
+
+	.navig a {
+		color: #d56520;
+		margin: 0 4px;
+	}
+
+	#kart {
+		width: 50%;
+		height: 50%;
+	}
+
+	.cats {
+		width: 50%;
+	}
+	.table {
+		font-size: 1.5vw;
+	}
+
+}
