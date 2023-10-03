@@ -26,9 +26,6 @@ body {
 	height: 50%;
 }
 
-.cats {
-	width: 100%;
-}
 
 
 /*шапка*/
@@ -222,9 +219,8 @@ footer {
 		height: 50%;
 	}
 
-	.cats {
-		width: 50%;
-	}
+	
+
 	.table {
 		font-size: 1.5vw;
 	}
