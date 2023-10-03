@@ -54,7 +54,6 @@ header {
 }
 
 .logotip {
-
 	width: 15%;
 	height: 15%;
 	padding: 9% 4% 9% 4%;
@@ -79,7 +78,7 @@ header {
 
 
 
-
+/*изменение порядка*/
 main {
 	display: flex;
 	flex-direction: column;
