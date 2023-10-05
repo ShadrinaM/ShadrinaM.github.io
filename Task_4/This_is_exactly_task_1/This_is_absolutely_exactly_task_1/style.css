@@ -1,0 +1,89 @@
+/*общее*/
+.corpse {
+	color: #020100;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #ed9b7a;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+a {
+	color: #c72b05;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #FDEA6A;
+}
+
+/*шапочка*/
+header {
+	background-image: radial-gradient(ellipse, #d56520, #37130a);
+	border: 4px solid #240d07;
+	box-shadow: 5px 0 1px black;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+}
+
+.nav-link-wraper {
+	text-align: center;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #020100;
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	color: #FDEA6A;
+}
+
+/*подвальчик*/
+footer {
+	background-color: rgb(0, 0, 0);
+	color: aliceblue;
+	font-weight: bold;
+}
+
+footer a {
+	color: aliceblue;
+	font-weight: bold;
+}
+
+/*табличка*/
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	border: 3px solid black;
+	width: 100%;
+}
+
+th {
+	font-weight: bold;
+	padding: 3px;
+	border: 3px solid #240d07;
+}
+
+td {
+	padding: 3px 3px;
+	border: 3px solid #240d07;
+	text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+	background: #ca6b30c7;
+}
+
+tbody tr:nth-child(even) {
+	background: #ca6b3085;
+}
