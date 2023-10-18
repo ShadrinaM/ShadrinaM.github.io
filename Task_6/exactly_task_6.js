@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         priceJS.textContent = price;// Вывод результата
     }
-    //функция  получения значения выбранного типа услуги
+    //функция получения значения выбранного типа услуги
     function getServiceValue() {
         for (i = 0; i < serviceJS.length; i += 1) {
             if (serviceJS[i].checked) {

@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <div class="order_cost_calculator">
         <h1>Калькулятор стоимости заказа </h1>
         <label for="quantityfirst">Количество товара:</label>
@@ -27,13 +26,11 @@
         <button id="calculatefirst">Подсчитать стоимость</button>
         <div id="resultfirst"></div>
     </div>
-
     <div class="service_cost_calculator">
         <h1>Калькулятор стоимости услуги</h1>
         <form>
             <label for="quantity">Количество:</label>
             <input type="number" id="quantity" min="0" value="0">
-
             <p>Выберите тип услуги:</p>
             <input type="radio" name="service" value="100"> Покупка плюшки с маком
             <input type="radio" name="service" value="200"> Покупка шаурмы
@@ -46,12 +43,10 @@
                     <option value="option2">Шаурма со свининой</option>
                 </select>
             </div>
-
             <div id="propertyBlock" style="display: none;">
                 <p>Выберите свойство пиццы:</p>
                 <input type="checkbox" id="property"> С сыром
             </div>
-
             <p>Цена товара: <span id="price">0</span></p>
         </form>
     </div>
