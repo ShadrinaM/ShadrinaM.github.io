@@ -3,12 +3,41 @@
 
 <head>
     <style>
-        .calc {
-            background-color: rgb(111, 111, 255);
-            color: white;
-            text-align: center;
+        .cost_calculator {
+            margin: 10px;
+            background-color: #7777FF;
+            border: 3px solid #240d07;
+            color: #101070;
             padding: 10px;
             font-weight: bold;
+            font-size: 25px;
+            font-family: Tahoma, Geneva, sans-serif;
+            text-shadow: 1px 1px 2px #e0e3e6;
+        }
+
+        h1 {
+            font-size: 30px;
+            border: 3px solid #240d07;
+            background-color: #ffffff;
+            padding: 8px;
+            margin: 8px;
+            text-shadow: 2px 2px 5px #b9b6b4;
+        }
+
+        form label {
+            font-size: 24px;
+        }
+
+        input[type="number"],
+        input[type="text"],
+        input[type="text"],
+        select,
+        button {
+            color: #101070;
+            font-size: 24px;
+            font-weight: bold;
+            border: 3px solid #240d07;
+            text-shadow: 1px 1px 2px #bed8f1;
         }
     </style>
     <title>Калькулятор стоимости заказа</title>
@@ -16,7 +45,7 @@
 </head>
 
 <body>
-    <div class="calc">
+    <div class="cost_calculator">
         <h1>Калькулятор стоимости заказа</h1>
         <label for="quantity">Количество товара:</label>
         <input type="text" id="quantity" name="quantity" value="1">
