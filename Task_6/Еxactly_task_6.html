@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Shadrina_Marina_24gr" content="Task_6">
+    <title>Калькулятор стоимости заказа и калькулятор стоимости услуги</title>
+    <script src="exactly_task_6.js" defer></script>
+</head>
+
+<body>
+
+    <div class="order_cost_calculator">
+        <h1>Калькулятор стоимости заказа </h1>
+        <label for="quantityfirst">Количество товара:</label>
+        <input type="text" id="quantityfirst" name="quantityfirst" value="1">
+        <br>
+        <br>
+        <label for="productfirst">Выберите товар:</label>
+        <select id="productfirst" name="productfirst">
+            <option value="product1">Плюшки с маком 100р</option>
+            <option value="product2">Шаурма 200р</option>
+            <option value="product3">Пицца 300р</option>
+        </select>
+        <br>
+        <br>
+        <button id="calculatefirst">Подсчитать стоимость</button>
+        <div id="resultfirst"></div>
+    </div>
+
+    <div class="service_cost_calculator">
+        <h1>Калькулятор стоимости услуги</h1>
+        <form>
+            <label for="quantity">Количество:</label>
+            <input type="number" id="quantity" min="0" value="0">
+
+            <p>Выберите тип услуги:</p>
+            <input type="radio" name="service" value="100"> Покупка плюшки с маком
+            <input type="radio" name="service" value="200"> Покупка шаурмы
+            <input type="radio" name="service" value="300"> Покупка пиццы
+
+            <div id="optionBlock" style="display: none;">
+                <p>Выберите опцию для шаурмы:</p>
+                <select id="option">
+                    <option value="option1">Шаурма с курицей</option>
+                    <option value="option2">Шаурма со свининой</option>
+                </select>
+            </div>
+
+            <div id="propertyBlock" style="display: none;">
+                <p>Выберите свойство пиццы:</p>
+                <input type="checkbox" id="property"> С сыром
+            </div>
+
+            <p>Цена товара: <span id="price">0</span></p>
+        </form>
+    </div>
+</body>
+
+</html>
