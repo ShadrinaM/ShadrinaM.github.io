@@ -4,12 +4,57 @@
 <head>
     <meta charset="utf-8">
     <meta name="Shadrina_Marina_24gr" content="Task_6">
+    <style>
+        .cost_calculator {
+            margin: 10px;
+            background-color: #7777FF;
+            border: 3px solid #240d07;
+            color: #101070;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 25px;
+            font-family: Tahoma, Geneva, sans-serif;
+            text-shadow: 1px 1px 2px #e0e3e6;
+        }
+
+        h1 {
+            font-size: 30px;
+            border: 3px solid #240d07;
+            background-color: #ffffff;
+            padding: 8px;
+            margin: 8px;
+            text-shadow: 2px 2px 5px #b9b6b4;
+        }
+
+        form label {
+            font-size: 24px;
+        }
+
+        input[type="number"],
+        input[type="text"],
+        input[type="text"],
+        select,
+        button {
+            color: #101070;
+            font-size: 24px;
+            font-weight: bold;
+            border: 3px solid #240d07;
+            text-shadow: 1px 1px 2px #bed8f1;
+        }
+
+        input[type=radio],
+        input[type=checkbox] {
+            height: 25px;
+            width: 25px;
+            vertical-align: middle;
+        }
+    </style>
     <title>Калькулятор стоимости заказа и калькулятор стоимости услуги</title>
     <script src="exactly_task_6.js" defer></script>
 </head>
 
 <body>
-    <div class="order_cost_calculator">
+    <div class="cost_calculator">
         <h1>Калькулятор стоимости заказа </h1>
         <label for="quantityfirst">Количество товара:</label>
         <input type="text" id="quantityfirst" name="quantityfirst" value="1">
@@ -23,10 +68,11 @@
         </select>
         <br>
         <br>
-        <button id="calculatefirst">Подсчитать стоимость</button>
+        <button id="calculatefirst">Подсчитать
+            стоимость</button>
         <div id="resultfirst"></div>
     </div>
-    <div class="service_cost_calculator">
+    <div class="cost_calculator">
         <h1>Калькулятор стоимости услуги</h1>
         <form>
             <label for="quantity">Количество:</label>
@@ -35,7 +81,6 @@
             <input type="radio" name="service" value="100"> Покупка плюшки с маком
             <input type="radio" name="service" value="200"> Покупка шаурмы
             <input type="radio" name="service" value="300"> Покупка пиццы
-
             <div id="optionBlock" style="display: none;">
                 <p>Выберите опцию для шаурмы:</p>
                 <select id="option">
