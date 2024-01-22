@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7e7f47b.css",
+    "main.js": "/static/js/main.37003102.js",
+    "static/js/787.dabd5629.chunk.js": "/static/js/787.dabd5629.chunk.js",
+    "static/media/D-flying.svg": "/static/media/D-flying.0fe665c50468c7147db5.svg",
+    "static/media/D-background-opacity-tarif.svg": "/static/media/D-background-opacity-tarif.6349a7c034be4555846e.svg",
+    "static/media/D-footer.svg": "/static/media/D-footer.db632660189fe7751f02.svg",
+    "static/media/drupal-logo-2.svg": "/static/media/drupal-logo-2.f675dc29a757ca24e236.svg",
+    "static/media/right-quote-sign.svg": "/static/media/right-quote-sign.06a38bad466a8d7ea90a.svg",
+    "index.html": "/index.html",
+    "static/media/checkmark.svg": "/static/media/checkmark.9cfe1eb81c7261d56da2.svg",
+    "main.c7e7f47b.css.map": "/static/css/main.c7e7f47b.css.map",
+    "main.37003102.js.map": "/static/js/main.37003102.js.map",
+    "787.dabd5629.chunk.js.map": "/static/js/787.dabd5629.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7e7f47b.css",
+    "static/js/main.37003102.js"
+  ]
+}
